@@ -1,0 +1,1 @@
+var HomePageModule = angular.module('HomePageModule', ['ngRoute']);
