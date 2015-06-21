@@ -1,7 +1,7 @@
 var FormFeatureModule = angular.module("FormFeatureModule", [ "ngRoute" ]);
 
 FormFeatureModule.controller("FormFeatureCtrl", [ "$scope", function($scope) {
-    $scope.username = "James", $scope.status = "Please fill out the form.";
+    $scope.username = "", $scope.password = "", $scope.status = "Please fill out the form.";
 } ]), FormFeatureModule.directive("formfeature", function() {
     return {
         restrict: "E",

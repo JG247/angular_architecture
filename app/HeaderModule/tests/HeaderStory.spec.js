@@ -4,7 +4,7 @@ describe('A suite of stories about the header', function() {
   var logo = element(by.id('logo'));
 
   beforeEach(function() {
-    browser.get('http://localhost/projects/angular_scalable/#/');
+    browser.get('http://localhost/projects/angular_architecture/#/');
   });
 
   it('should contain the text Site Logo', function() {

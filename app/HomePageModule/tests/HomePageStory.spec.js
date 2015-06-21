@@ -3,7 +3,7 @@ describe('A suite of stories about the home page', function() {
   var h1 = element(by.id('h1'));
 
   beforeEach(function() {
-    browser.get('http://localhost/projects/angular_scalable/#/');
+    browser.get('http://localhost/projects/angular_architecture/#/');
   });
 
   it('should have a title called Angular Scalable', function() {

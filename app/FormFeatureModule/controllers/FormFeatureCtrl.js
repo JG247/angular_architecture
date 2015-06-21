@@ -1,4 +1,5 @@
 FormFeatureModule.controller('FormFeatureCtrl', ['$scope',  function($scope) {
-	$scope.username = "James";
+	$scope.username = "";
+	$scope.password = "";
 	$scope.status = "Please fill out the form.";
 }]);
